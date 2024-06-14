@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Portal</title>
+    <link rel="icon" href="./gabaarr/hr-management_11476294.png">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #CEEFF2;
+        }
+        header{
+            background-color: #06daed;
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+        }
+        .navitem {
+            display: inline;
+            padding: 15px;
+        }
+        .navitem a {
+               text-decoration: none;
+               color: rgb(234, 235, 236);
+        }
+        #employee-ragistration{
+          width: max-content;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+        .employeetable{
+            text-align: center;
+        }
+        table{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+
+        }
+        td,th{
+            border: 1px solid #9fb8bb;
+            padding: 8px;
+        }
+        #ContactUs{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Company HR Portal </h1>
+        <ul>
+            <li class="navitem"><a href="#employee-ragistration">Employee Ragistration</a></li>
+            <li class="navitem"><a href="#employee-directory">Employee Directory</a></li>
+            <li class="navitem"><a href="#Contact-us">Contact Us</a</li>
+        </ul>
+    </header>
+
+    <image src="./gabaarr/shoaibbb.png" style="width: 100%;"></image>
+    <section id="employee-ragistration">
+        <h2>Employee Ragistration</h2>
+        <p>Fill the form below to ragister as <em>employee.</em></p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+            <label for="email">Email Id:</label>
+            <input type="email" id="email"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password"><br>
+            <label for="age">Age:</label>
+            <input type="text" id="name"><br>
+            <label for="role">Select role:</label>
+            <select>
+                <option>Software Engineer</option>
+                <option>Product Manager</option>
+                <option>Designer</option>
+                <option>HR Representative</option>
+            </select><br><br>
+            <label for="joinindate">Select joining date:</label>
+            <input type="date" id="joinindate"><br><br>
+            <input type="submit">
+        </form>
+    </section>
+
+    <section id="employee-directory">
+        <h2>Employee Directory</h2>
+        <p>List of all the ragister Employees.</p>
+        <table>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th> Employee Role</th>
+            </tr>
+            <tr>
+                <td>234</td>
+                <td>Jai Dixit</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td>235</td>
+                <td>Roxy Gupta</td>
+                <td>HR Requiter</td>
+            </tr>
+            <tr>
+            <td>236</td>
+            <td>Shoib Akhtar</td>
+            <td>Software Engineer</td>
+        </tr>
+        </table>
+    </section>
+
+    <section id="ContactUs">
+        <h2>Contact Us</h2>
+        <p>You can contact us at company@official.com or 955501XXXX</p>
+        <p>Office timing : 9AM to 6PM</p>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.192430617852!2d77.
+         11831397496094!3d28.743671079026026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01b22ac6a0a5%3A0xd
+         d17d17873308784!2sPRISM%20THE%20LIBRARY!5e0!3m2!1sen!2sin!4v1718341668531!5m2!1sen!2sin"
+          width="400" height="400" style="border:0;"
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Company Name</p>
+    </footer>
+    
+</body>
+</html>
